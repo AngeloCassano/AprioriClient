@@ -1,0 +1,15 @@
+Il progetto contenuto in questo CD realizza un sistema client-server. 
+Il server mette a disposizione le funzionalità per la scoperta di pattern frequenti con conseguenti regole di associazione confidenti all'interno di una tabella presente nel database dello stesso.
+Il client tramite un' interfaccia realizzata con Javafx, consente di richiedere al server  le seguenti operazioni: 
+elaborazione e salvataggio di un'operazione di data-mining sul database in remoto, inserendo il nome della tabella, i valori di supporto e confidenza minimi e il nome del file dove conservare i risultati ottenuti;
+caricamento dei risultati di un' elaborazione precedente, memorizzati sul file indicato dall'utente.
+In entrambi i casi i risultati sono visualizzati sotto forma di testo sull'interfaccia e in più possono essere mostrati sotto forma di grafico a barre in una finestra dedicata.
+L'utente può scegliere di applicare un filtro di ricerca sui pattern o sulle regole confidenti, visualizzando nel diagramma solo quelle contenenti al loro interno i parametri da lui selezionati. 
+
+Il progetto differisce dalla versione iniziale per i seguenti punti:
+Utilizzo della libreria Javafx per la realizzazione dell'interfaccia grafica e le sue componenti;
+La possibilità di memorizzare i risultati su file e in un secondo momento recuperarli inserendone il nome;
+Un grafico a barre per la visualizzazione dei risultati calcolati;
+Possibilità di filtrare i risultati da mostrare nel grafico;
+
+L'utilizzo del sistema è approfondito sulla guida utente con i casi di test.
